@@ -14,6 +14,8 @@ int main(void)
 
 	while (digit <= 102) /* 102, decimal rep of f*/
 	{
+		putchar(digit);
+
 		if (digit == 57)
 			digit += 39;
 		++digit;
