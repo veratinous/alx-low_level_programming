@@ -19,6 +19,7 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
+		++digit;
 	}
 	putchar('\n');
 	return (0);
