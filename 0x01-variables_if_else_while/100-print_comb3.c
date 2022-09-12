@@ -12,7 +12,7 @@ int main(void)
 {
 	int digit1 = 0, digit2;
 
-	while (digit < 1)
+	while (digit1 < 1)
 	{
 		digit2 = 0;
 		while (digit2 <= 9)
@@ -28,9 +28,9 @@ int main(void)
 					putchar(' ');
 				}
 			}
-			++digit2
+			++digit2;
 		}
-		++digit1
+		++digit1;
 	}
 	putchar('\n');
 	return (0);
