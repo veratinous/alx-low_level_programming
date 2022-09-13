@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	char ch = 'a';
+	char ch;
 
-	while (ch < 'z'; ++ch)
+	while (ch = 'a', ch < 'z', ++ch)
 		_putchar(ch);
 
 	_putchar('\n');
