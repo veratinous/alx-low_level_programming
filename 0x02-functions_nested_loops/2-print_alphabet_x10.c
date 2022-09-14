@@ -6,9 +6,9 @@
 
 void print_alphabet_x10(void)
 {
-	int count;
+	int count = 0;
 
-	while (count <= 11)
+	while (count <= 10)
 	{
 		char ch = 'a';
 
@@ -18,5 +18,6 @@ void print_alphabet_x10(void)
 			++ch;
 		}
 		++count;
+		_putchar('\n');
 	}
 }
