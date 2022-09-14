@@ -10,7 +10,7 @@
 
 int _abs(int n)
 {
-	_putchar((unsigned int)n);
-
-	return (0);
+	if (n < 0)
+		_putchar(-n);
+	return (-n);
 }
