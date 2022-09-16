@@ -10,5 +10,5 @@ void print_numbers(void)
 
 	for (n = 0; n <= 9; ++n)
 		_putchar(n + '0');
-	_putcahr('\n')
+	_putcahr('\n');
 }
