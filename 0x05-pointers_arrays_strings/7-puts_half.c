@@ -24,13 +24,15 @@ void puts_half(char *str)
 		for (j = 0; j <= n; j++)
 		{
 			_putchar(str[j]);
-			_putchar('\n');
 		}
+		_putchar('\n');
 	}
 	else
+	{
 		for (; n <= i; n++)
 		{
 			_putchar(str[n]);
-			_putchar('\n');
 		}
+		_putchar('\n');
+	}
 }
